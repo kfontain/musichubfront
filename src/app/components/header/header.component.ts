@@ -10,7 +10,7 @@ import {User} from "../../entity/User";
 export class HeaderComponent implements OnInit {
 
   constructor(
-    private loginService: LoginService
+    public loginService: LoginService
   ) { }
 
   ngOnInit() {
