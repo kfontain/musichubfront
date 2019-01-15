@@ -30,6 +30,8 @@ import { PlaylistComponent } from './components/playlist/playlist.component';
 import { EditSongComponent } from './components/edit-song/edit-song.component';
 import { AddSongComponent } from './components/add-song/add-song.component';
 
+import { MUSICHUB_API } from '../consts';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,8 +64,8 @@ import { AddSongComponent } from './components/add-song/add-song.component';
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,
-        whitelistedDomains: ['localhost:3000'],
-        blacklistedRoutes: ['localhost:3000/auth/google']
+        whitelistedDomains: ['MUSICHUB_API'],
+        blacklistedRoutes: ['MUSICHUB_API/auth/google']
       }
     }),
     ToastrModule.forRoot() // ToastrModule added
