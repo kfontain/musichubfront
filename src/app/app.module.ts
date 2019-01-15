@@ -64,8 +64,8 @@ import { MUSICHUB_API } from '../consts';
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,
-        whitelistedDomains: ['https://musichubapi.herokuapp.com'],
-        blacklistedRoutes: ['https://musichubapi.herokuapp.com\/auth\/google']
+        whitelistedDomains: ['musichubapi.herokuapp.com'],
+        blacklistedRoutes: ['musichubapi.herokuapp.com/auth/google']
       }
     }),
     ToastrModule.forRoot() // ToastrModule added
