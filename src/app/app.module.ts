@@ -64,8 +64,8 @@ import { MUSICHUB_API } from '../consts';
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,
-        whitelistedDomains: ['MUSICHUB_API'],
-        blacklistedRoutes: ['MUSICHUB_API/auth/google']
+        whitelistedDomains: [MUSICHUB_API],
+        blacklistedRoutes: [MUSICHUB_API + '/auth/google']
       }
     }),
     ToastrModule.forRoot() // ToastrModule added
