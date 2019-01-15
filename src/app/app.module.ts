@@ -65,7 +65,7 @@ import { MUSICHUB_API } from '../consts';
       config: {
         tokenGetter: tokenGetter,
         whitelistedDomains: ['https://musichubapi.herokuapp.com'],
-        blacklistedRoutes: ['https://musichubapi.herokuapp.com/auth/google']
+        blacklistedRoutes: ['https://musichubapi.herokuapp.com\/auth\/google']
       }
     }),
     ToastrModule.forRoot() // ToastrModule added
