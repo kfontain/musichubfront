@@ -10,6 +10,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Deployed version can be found at : [link](https://musichubfront.herokuapp.com)
 
+![demo](https://imgur.com/RU10DY2)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
