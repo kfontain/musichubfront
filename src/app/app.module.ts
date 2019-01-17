@@ -7,7 +7,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import {tokenGetter} from "./socialloginConfig";
@@ -37,7 +36,6 @@ import { MUSICHUB_API } from '../consts';
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    FooterComponent,
     HomeComponent,
     AddPlaylistComponent,
     EditPlaylistComponent,
